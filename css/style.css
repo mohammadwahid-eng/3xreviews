@@ -13,20 +13,21 @@
 
 .quotebox {
     border-radius: 25px;
-    padding: 20px;
+    padding: 5px 40px;
+    font-size: 22px;
 }
 
 .quotebox::before {
     content: "\275E";
-    left: -5px;
-    top: -5px;
+    left: -6px;
+    top: -8px;
     align-items: start;
 }
 
 .quotebox::after {
     content: "\275E";
-    right: -5px;
-    bottom: -5px;
+    right: -6px;
+    bottom: -10px;
     justify-content: end;
 }
 
@@ -34,10 +35,10 @@
 .quotebox::after {
     position: absolute;
     background-color: white;
-    width: 37px;
-    height: 33px;
+    width: 43px;
+    height: 38px;
     display: flex;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 0.8;
 }
 
@@ -87,6 +88,7 @@ footer::before {
 @media (min-width: 768px) {
     .quotebox {
         width: 220px;
+        padding: 9px;
     }
     .bg-texture {
         background-image: url('../img/texture.png');
