@@ -50,7 +50,7 @@
           </div>
           <div class="row gap-3 gap-md-0 mt-4 align-items-center">
             <div class="col-md-8">
-              <p>and it's <strong>GUARANTEED</strong> to <u>work</u> <u>for</u> <u>you</u> too!<br>Ask your local representative about a Free Trial so you can see for yourself <strong class="text-danger"><em>RISK</em> FREE</strong> today!</p>
+              <p>and it's <strong class="custom-underline">GUARANTEED</strong> to <u>work</u> <u>for</u> <u>you</u> too!<br>Ask your local representative about a Free Trial so you can see for yourself <strong class="text-danger"><em>RISK</em> FREE</strong> today!</p>
               <p>Call Toll Free 1-833 MORE STARS 1-833-667-3782</p>
             </div>
             <div class="col">
@@ -66,11 +66,11 @@
             <h1 class="fw-bolder text-center mb-4">Showcase Your Happy Customers<small class="d-block fw-normal">(on Social Media & Your Website)</small></h1>
           </div>
         </div>
-        <div class="row gap-4 gap-sm-0 align-items-center">
-          <div class="col-12 col-sm-6">
+        <div class="row gap-4 gap-sm-0 align-items-center justify-content-center">
+          <div class="col-7 col-sm-5">
             <img src="img/happy_customers.png" alt="Happy customers" class="img-fluid d-block mx-auto">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <p class="m-0 dropcap">📢 Leverage the power of positive reviews! We help you showcase your happy customers on social media and your website, building trust with potential clients and reinforcing your reputation as a reliable business.</p>
           </div>
         </div>
@@ -82,11 +82,11 @@
             <h1 class="fw-bolder text-center mb-4">Automatic Customer Feedback Reminders:</h1>
           </div>
         </div>
-        <div class="row flex-sm-row-reverse gap-4 gap-sm-0 align-items-center">
-          <div class="col-12 col-sm-6">
+        <div class="row flex-sm-row-reverse gap-4 gap-sm-0 align-items-center justify-content-center">
+          <div class="col-7 col-sm-5">
             <img src="img/customer_feedback.png" alt="Customer feedback" class="img-fluid d-block mx-auto">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <p class="m-0 dropcap">👍 Encourage happy customers to share their experiences! Our automated feedback reminders prompt satisfied clients to leave positive reviews, enhancing your online presence and attracting new customers.</p>
           </div>
         </div>
@@ -98,11 +98,11 @@
             <h1 class="fw-bolder text-center mb-4">A.I. Prewritten Replies:</h1>
           </div>
         </div>
-        <div class="row gap-4 gap-sm-0 align-items-center">
-          <div class="col-12 col-sm-6">
+        <div class="row gap-4 gap-sm-0 align-items-center justify-content-center">
+          <div class="col-7 col-sm-5">
             <img src="img/ai_replies.png" alt="AI replies" class="img-fluid d-block mx-auto">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <p class="m-0 dropcap">✏️ Craft the perfect response every time! We provide pre-written replies you can easily edit that are customized to address various types of reviews, saving you time and ensuring your responses are consistent.</p>
           </div>
         </div>
@@ -114,11 +114,11 @@
             <h1 class="fw-bolder text-center mb-4">Daily Reputation Monitoring:</h1>
           </div>
         </div>
-        <div class="row flex-sm-row-reverse gap-4 gap-sm-0 align-items-center">
-          <div class="col">
+        <div class="row flex-sm-row-reverse gap-4 gap-sm-0 align-items-center justify-content-center">
+          <div class="col-7 col-sm-5">
             <img src="img/daily_monitoring.png" alt="Daily monitoring" class="img-fluid d-block mx-auto">
           </div>
-          <div class="col">
+          <div class="col-12 col-sm-7">
             <p class="m-0 dropcap">👁️‍🗨️ Stay on top of your online reputation effortlessly! We monitor review platforms daily to ensure you never miss a customer's feedback, allowing you to respond promptly and professionally.</p>
           </div>
         </div>

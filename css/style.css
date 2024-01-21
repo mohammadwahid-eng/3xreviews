@@ -1,5 +1,6 @@
 :root {
     --bs-font-sans-serif: 'Open Sans', sans-serif;
+    --bs-danger-rgb: 255, 0, 0;
 }
 
 .fw-bolder {
@@ -42,7 +43,7 @@
 
 footer::before {
     content: "";
-    background-image: url(../img/wave.png);
+    background-image: url('../img/wave.png');
     background-repeat: no-repeat;
     background-size: 100% 75px;
     background-position: top left;
@@ -55,6 +56,23 @@ footer::before {
     font-size: 125%;
 }
 
+.custom-underline {
+    position: relative;
+}
+
+.custom-underline::after {
+    content: "";
+    background-image: url('../img/underline.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+    width: 100%;
+    height: 13px;
+    background-size: contain;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+}
 
 @media (min-width: 992px) {
     :root {
@@ -71,7 +89,7 @@ footer::before {
         width: 220px;
     }
     .bg-texture {
-        background-image: url('../img/bg_pattern.jpg');
+        background-image: url('../img/texture.png');
         background-attachment: scroll;
         background-position: left center;
         background-size: contain;
