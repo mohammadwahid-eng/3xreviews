@@ -122,6 +122,39 @@ footer::before {
     height: 20px;
 }
 
+.typed-cursor {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: scaleX(-1);
+    display: inline-block;
+    font-size: 75%;
+}
+
+.radial-glow {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffcc0070, transparent);
+    animation: glow 4s infinite;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes glow {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
 @media (min-width: 768px) {
     .quotebox {
         width: 220px;
