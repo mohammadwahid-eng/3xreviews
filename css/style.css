@@ -8,6 +8,10 @@
     --bg-feature-box: #f8eae7;
 }
 
+.fw-bolder {
+    font-weight: 800 !important;
+}
+
 .container {
     max-width: var(--bs-breakpoint-lg);
 }
