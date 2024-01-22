@@ -4,10 +4,7 @@
     --bs-danger: #ff0000;
     --bs-primary-rgb: 18, 161, 242;
     --bs-primary: #12a1f2;
-}
-
-.fw-bolder {
-    font-weight: 800 !important;
+    --bs-body-font-size: 1rem;
 }
 
 .container {
@@ -20,29 +17,29 @@
     font-size: 22px;
 }
 
-.quotebox::before {
-    content: "\275E";
-    left: -6px;
-    top: -8px;
-    align-items: start;
-}
-
-.quotebox::after {
-    content: "\275E";
-    right: -6px;
-    bottom: -10px;
-    justify-content: end;
-}
-
 .quotebox::before,
 .quotebox::after {
     position: absolute;
     background-color: white;
     width: 43px;
     height: 38px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     font-size: 60px;
     line-height: 0.8;
+}
+
+.quotebox::before {
+    content: "\275E";
+    left: -6px;
+    top: -8px;
+}
+
+.quotebox::after {
+    content: "\275E";
+    right: -6px;
+    bottom: -10px;
 }
 
 footer::before {
@@ -79,7 +76,7 @@ footer::before {
 }
 
 .navbar-brand img {
-    width: 130px;
+    width: 150px;
 }
 
 .btn-primary {
@@ -132,12 +129,15 @@ footer::before {
 
 .radial-glow {
     display: block;
-    width: 250px;
-    height: 250px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    background: #ffcc0070; /* Fallback color */
     background: radial-gradient(circle, #ffcc0070, transparent);
     animation: glow 4s infinite;
+    -webkit-animation: glow 4s infinite;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 @keyframes glow {
@@ -170,6 +170,10 @@ footer::before {
     .hero .phone {
         max-width: 500px;
     }
+    .radial-glow {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -182,5 +186,9 @@ footer::before {
     }
     .navbar {
         --bs-navbar-nav-link-padding-x: 1.25rem;
+    }
+    .radial-glow {
+        width: 250px;
+        height: 250px;
     }
 }
