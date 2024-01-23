@@ -1,6 +1,6 @@
 new Typed('#typed', {
     strings: ['Reviews', 'Customers'],
-    typeSpeed: 75,
+    typeSpeed: 120,
     loop: true,
     cursorChar: '✏️',
 });
